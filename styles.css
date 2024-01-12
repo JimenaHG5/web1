@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    padding:0px;
+    margin:0px;
+}
+
+body{
+    background-color: rgb(235, 238, 241);
+}
+
+.bloque{
+    border: dotted  rgb(195, 139, 194);
+    margin: 10px;
+    color: rgb(55,24,59);
+    padding: 5px;
+}
+.linea{
+    font-family: 'Dancing Script', cursive;
+    display: inline-block;
+    height: 30px;
+    width: 100px;
+    padding: 15px;
+    border: 20px groove rgb(96,61,90);
+}
+.content_box{
+    width: 250px;
+    height: 100px;
+    border: double 4px rgb(199,126,165);
+    box-sizing: content-box;
+    box-shadow: 10px 10px 10px black;
+    margin: 20px;
+    border-radius: 30% 70% 43% 57% / 58% 62% 38% 42% ;
+}
+
+.border_box{
+    border: solid 2px pink;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
